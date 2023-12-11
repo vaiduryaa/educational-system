@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Educational Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Welcome to Educational Institute</h1>
+      <p>Start your learning journey with us!</p>
+      <a href="#courses" class="btn">Explore Courses</a>
+    </div>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    color: rgb(15, 15, 15);
+    padding: 20px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Hero Section Styles */
+  .hero {
+    background-image: url('download.png'); /* Replace 'your-image.jpg' with your image URL */
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .hero-content {
+    color: rgb(23, 22, 22);
+  }
+  
+  /* Course Section Styles */
+  .courses {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .course-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  
+  /* About and Contact Section Styles */
+  .about,
+  .contact {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+    </style>
+  </section>
+
+  <section id="courses" class="courses">
+    <h2>Our Courses</h2>
+    <div class="course-card">
+      <h3>HTML</h3>
+      <p>Description of HTML.</p>
+    </div>
+    <div class="course-card">
+      <h3>CSS</h3>
+      <p>Description of HTML.</p>
+    </div>
+    <!-- Add more course cards here -->
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>We are dedicated to providing quality education...</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: code@educationinstitute.com</p>
+    <p>Phone: 123-456-7890</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Educational Institute. All rights reserved.</p>
+  </footer>
+</body>
+</html>
